@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
 body {
-  font-family: 'jsMath-cmbx10', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 
@@ -44,7 +45,7 @@ body {
 .btopo {
   height: 250px;
   width: 100%;
-  background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
+  background-image: url(https://conteudo.imguol.com.br/c/home/90/2021/11/25/loja-de-discos-1637873416794_1170x540.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 415px 300px;
@@ -73,7 +74,7 @@ body {
 }
 
 .img1 {
-  background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvJB5lWv-eJUhQT3dE4uN66ZHt2onVLsjlWVqpFed_sWY08-DAOM4-EyMfaytCX57-xyjZrspQb8AYBJynYAHsmWNPb6Q4YY4Gac4q0VytZGgo4vzXFTRB44j6jOdgUr_SKeDlcxMsBmFH/s1600/IMG_4120.JPG);
   background-size: 414px 270px;
   background-repeat: no-repeat;
   background-position: center;
@@ -81,7 +82,7 @@ body {
 
 .img2 {
   background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
-  background-size: 414px 270px;
+  background-size: 414px 300px;
   background-repeat: no-repeat;
   background-position: center;
 }

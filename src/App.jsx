@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './Components/Header';
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet"></link>
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Header/>
 
       <div className="btopo">
-        <h2 className="font">Os melhores discos eee CDs</h2>
+        <h2 className="font">Os melhores discos e CDs</h2>
       </div>
 
       <div className="botonbox">
