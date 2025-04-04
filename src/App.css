@@ -1,42 +1,234 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+body {
+  font-family: 'jsMath-cmbx10', sans-serif;
 }
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+.botonbox {
+  display: grid;
+  gap: 15px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 35px;
+}
+
+.gridItem {
+  width: 100%;
+  height: 270px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.red {
+  background-color: rgb(84, 0, 0);
+}
+
+.topo {
+  height: 130px;
+  width: 100%;
+  background-color: darkred;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btopo {
+  height: 250px;
+  width: 100%;
+  background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 415px 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  height: 80px;
+  width: 80px;
+  margin-left: -30px;
+
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.divlogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img {
+  margin-right: -20px;
+}
+
+.img1 {
+  background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
+  background-size: 414px 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img2 {
+  background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
+  background-size: 414px 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img3 {
+  background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
+  background-size: 414px 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.font {
+  color: rgb(8, 8, 8);
+  margin-left: 20px;
+}
+
+.white {
+  color: whitesmoke;
+}
+
+.baixo {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.baixod {
+  display: flex;
+  justify-content: center;
+
+}
+
+.prod {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  grid-template-columns: 180px 180px;
+  grid-template-rows: 180px 180px;
+  justify-content: center;
+  align-items: center;
+}
+
+.prods {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+
+}
+
+.p1 {
+  background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
+  background-size: 180px;
+}
+
+.p2 {
+  background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
+  background-size: 180px;
+}
+
+.p3 {
+  background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
+  background-size: 180px;
+}
+
+.p4 {
+  background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
+  background-size: 180px;
+}
+
+.p5 {
+  background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
+  background-size: 180px;
+}
+
+.p6 {
+  background-image: url(https://www.shoppingdella.com.br/upload/blog/1317jpeg);
+  background-size: 180px;
+}
+
+@media(min-width: 768px) {
+
+  .prod {
+      grid-template-columns: 250px 250px 250px 250px 250px 250px;
+      gap: 25px;
+      grid-template-rows: 250px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .p1,
+  .p2,
+  .p3,
+  .p4,
+  .p5,
+  .p6 {
+      background-size: 250px;
+      background-position: center;
+
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .prods {
+      width: 250px;
+      height: 250px;
   }
+
+  .btopo {
+      background-size: 2000px 900px;
+      height: 300px;
+      justify-content: center;
+
+  }
+
+  .gridItem {
+      width: 550px;
+      height: 300px;
+      justify-content: center;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+      background-size: 550px 300px;
+  }
+
+  .botonbox {
+      grid-template-columns: 550px 550px 550px;
+      align-content: center;
+      gap: 40px;
+      justify-content: center;
+  }
+
+.topo{
+  display: flex;
+  justify-content: center;
 }
 
-.card {
-  padding: 2em;
+.cd{
+  height: 200px;
+  width: 200px;
 }
 
-.read-the-docs {
-  color: #888;
+
+
 }
