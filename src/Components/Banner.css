@@ -1,0 +1,17 @@
+.btopo {
+    height: 250px;
+    width: 100%;
+    background-image: url(https://conteudo.imguol.com.br/c/home/90/2021/11/25/loja-de-discos-1637873416794_1170x540.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 415px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .font {
+    color: rgb(8, 8, 8);
+    margin-left: 20px;
+  }

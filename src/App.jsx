@@ -7,10 +7,8 @@ function App() {
     <>
       <Header/>
 
-      <div className="btopo">
-        <h2 className="font">Os melhores discos e CDs</h2>
-      </div>
-
+      <Banner/>
+      
       <div className="botonbox">
         <div className="gridItem red img1">
           <h2 className="font white">Garantimos um garimpo de qualidade!</h2>
