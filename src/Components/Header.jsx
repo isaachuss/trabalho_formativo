@@ -9,7 +9,7 @@ function Header() {
           <div className="container">
             <div className="divlogo">
               <div className="img">
-                <img className="logo" src="/images/icons8-cd-100.png" alt="Logo" />
+                <img className="logo" src="https://cdn-icons-png.flaticon.com/512/293/293434.png" alt="Logo" />
               </div>
               <div className="h1">
                 <h1>MUZAAC</h1>
