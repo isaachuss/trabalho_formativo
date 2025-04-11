@@ -1,0 +1,49 @@
+.botonbox {
+    grid-template-columns: 550px 550px 550px;
+    align-content: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.gridItem {
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .red {
+    background-color: rgb(84, 0, 0);
+  }
+
+  .white {
+    color: whitesmoke;
+  }
+  
+  .font {
+    color: rgb(8, 8, 8);
+    margin-left: 20px;
+  }
+
+  .img1 {
+    background-image: url(https://static.euronews.com/articles/stories/08/81/25/62/1920x1080_cmsv2_6786a683-06c5-5a9d-84d5-2753ab285dd4-8812562.jpg);
+    background-size: 414px 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .img2 {
+    background-image: url(https://conteudo.imguol.com.br/c/home/9a/2022/10/13/isso-e-um-toca-disco-ou-uma-vitrola-1665672977413_1170x540.jpg);
+    background-size: 414px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .img3 {
+    background-image: url(https://bpb-us-e1.wpmucdn.com/www.thelantern.com/dist/c/1/files/2022/11/Record-Stores.jpg);
+    background-size: 414px 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  

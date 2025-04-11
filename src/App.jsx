@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './Components/Header';
 import Banner from './Components/Banner';
+import Cards from './Components/Cards';
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet"></link>
 
 function App() {
@@ -10,17 +11,7 @@ function App() {
 
       <Banner/>
       
-      <div className="botonbox">
-        <div className="gridItem red img1">
-          <h2 className="font white">Garantimos um garimpo de qualidade!</h2>
-        </div>
-        <div className="gridItem red img2">
-          <h2 className="font white">Vendemos também aparelhos de som!</h2>
-        </div>
-        <div className="gridItem red img3">
-          <h2 className="font white">Produtos de qualidade com valores variados!</h2>
-        </div>
-      </div>
+      <Cards/>
 
       <div className="prod">
         <div className="prods red p1"></div>
